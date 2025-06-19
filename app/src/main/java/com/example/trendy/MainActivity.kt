@@ -33,7 +33,11 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "Trendy" +
+                "val 1 what if rap song by yanga" +
+                "val 2 all of the lights rnb song by Kanye West" +
+                "val 3 hey hey gqom by Shado M" +
+                "val 4 bow down Gospel song by Benjamin Dube",
         modifier = modifier
     )
 }
