@@ -34,14 +34,19 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Trendy" +
+                "main screen first screen" +
                 "val 1 what if rap song by yanga" +
                 "val 2 all of the lights rnb song by Kanye West" +
                 "val 3 hey hey gqom by Shado M" +
                 "val 4 bow down Gospel song by Benjamin Dube" +
+                "second screen first button" +
                 "Rating what if 8" +
                 "all of the lights 8" +
                 "hey hey 4" +
-                "bow down 8",
+                "bow down 8" +
+                "Exit button" +
+                "return button" +
+                "ratings are for all four songs = 28",
         modifier = modifier
     )
 }
